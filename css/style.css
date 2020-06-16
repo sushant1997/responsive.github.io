@@ -257,3 +257,52 @@ footer{
     padding-top: 3px;
   }
 }
+
+@media screen and (max-width: 320px){
+  .header{
+    height: 125vh;
+   
+    line-height: 40px;
+  }
+
+  .btn{
+    
+    padding: 15px 5px;
+   
+    
+  }
+
+  .header-content h1{
+    font-size: 15px;
+  }
+
+  .header-content h2{
+    font-size: 20px;
+  }
+
+  .intro-content{
+    display: block;
+    height: 160vh;
+  }
+
+  .intro-content div{
+    width: 100%;
+  }
+
+  .services{
+    height: 180vh;
+    clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
+  }
+
+  .service-content{
+    display: block;
+    margin-top: -15vh;
+    padding-top: 1px;
+  }
+
+  .bucket{
+    width: 100%;
+    margin: 80px 3%;
+    height: 245px;
+  }
+}
