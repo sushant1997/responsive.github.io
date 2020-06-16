@@ -159,7 +159,7 @@ footer{
   padding-bottom: 30px;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 449px){
   .header{
     height: 110vh;
    
@@ -174,7 +174,7 @@ footer{
   }
 
   .header-content h1{
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .header-content h2{
@@ -205,104 +205,5 @@ footer{
     width: 100%;
     margin: 80px 3%;
     height: 180px;
-  }
-}
-
-@media screen and (max-width: 375px){
-  .header{
-    height: 110vh;
-   
-    line-height: 40px;
-  }
-
-  .btn{
-    
-    padding: 15px 15px;
-   
-    
-  }
-
-  .header-content h1{
-    font-size: 15px;
-  }
-
-  .header-content h2{
-    font-size: 20px;
-  }
-
-  .intro-content{
-    display: block;
-    height: 150vh;
-  }
-
-  .intro-content div{
-    width: 100%;
-  }
-
-  .services{
-    height: 160vh;
-    clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
-  }
-
-  .service-content{
-    display: block;
-    margin-top: -15vh;
-    padding-top: 3px;
-  }
-
-  .bucket{
-    width: 100%;
-    margin: 80px 4%;
-    height: 200px;
-    padding-top: 3px;
-  }
-}
-
-@media screen and (max-width: 320px){
-  .header{
-    height: 125vh;
-   
-    line-height: 40px;
-  }
-
-  .btn{
-    
-    padding: 15px 5px;
-   
-    
-  }
-
-  .header-content h1{
-    font-size: 15px;
-  }
-
-  .header-content h2{
-    font-size: 20px;
-  }
-
-  .intro-content{
-    display: block;
-    height: 160vh;
-  }
-
-  .intro-content div{
-    width: 100%;
-  }
-
-  .services{
-    height: 180vh;
-    clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
-  }
-
-  .service-content{
-    display: block;
-    margin-top: -15vh;
-    padding-top: 1px;
-  }
-
-  .bucket{
-    width: 100%;
-    margin: 80px 3%;
-    height: 245px;
   }
 }
