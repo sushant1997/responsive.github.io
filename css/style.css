@@ -211,3 +211,55 @@ footer{
     padding-top: 3px;
   }
 }
+
+
+
+@media screen and (max-width: 449px) and 
+(max-height:896px){
+  .header{
+    height: 110vh;
+   
+    line-height: 40px;
+  }
+
+  .btn{
+    
+    padding: 15px 25px;
+   
+    
+  }
+
+  .header-content h1{
+    font-size: 30px;
+  }
+
+  .header-content h2{
+    font-size: 20px;
+  }
+
+  .intro-content{
+    display: block;
+    height: 140vh;
+  }
+
+  .intro-content div{
+    width: 100%;
+  }
+
+  .services{
+    height: 150vh;
+    clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
+  }
+
+  .service-content{
+    display: block;
+    margin-top: -15vh;
+    padding-top: 1px;
+  }
+
+  .bucket{
+    width: 100%;
+    margin: 80px 3%;
+    height: 180px;
+  }
+}
