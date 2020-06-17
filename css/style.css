@@ -162,17 +162,17 @@ footer{
 
 
 
-@media screen and ( min-width:320px)
+@media screen and ( max-width:320px)
 {
   .header{
-    height: 110vh;
+    height: 130vh;
    
-    line-height: 40px;
+    line-height: 30px;
   }
 
   .btn{
     
-    padding: 15px 15px;
+    padding: 15px 5px;
    
     
   }
@@ -187,7 +187,7 @@ footer{
 
   .intro-content{
     display: block;
-    height: 150vh;
+    height: 160vh;
   }
 
   .intro-content div{
@@ -195,7 +195,7 @@ footer{
   }
 
   .services{
-    height: 160vh;
+    height: 180vh;
     clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
   }
 
@@ -208,111 +208,12 @@ footer{
   .bucket{
     width: 100%;
     margin: 80px 4%;
-    height: 200px;
+    height: 250px;
     padding-top: 3px;
   }
 }
 
 
 
-@media screen and (max-width: 425px) 
-{
-  .header{
-    height: 110vh;
-   
-    line-height: 40px;
-  }
-
-  .btn{
-    
-    padding: 15px 25px;
-   
-    
-  }
-
-  .header-content h1{
-    font-size: 30px;
-  }
-
-  .header-content h2{
-    font-size: 20px;
-  }
-
-  .intro-content{
-    display: block;
-    height: 140vh;
-  }
-
-  .intro-content div{
-    width: 100%;
-  }
-
-  .services{
-    height: 150vh;
-    clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
-  }
-
-  .service-content{
-    display: block;
-    margin-top: -15vh;
-    padding-top: 1px;
-  }
-
-  .bucket{
-    width: 100%;
-    margin: 80px 3%;
-    height: 180px;
-  }
-}
 
 
-
-@media screen and (min-width: 768px)  
-{
-  .header{
-    height: 110vh;
-   
-    line-height: 40px;
-  }
-
-  .btn{
-    
-    padding: 15px 25px;
-   
-    
-  }
-
-  .header-content h1{
-    font-size: 30px;
-  }
-
-  .header-content h2{
-    font-size: 20px;
-  }
-
-  .intro-content{
-    display: block;
-    height: 120vh;
-  }
-
-  .intro-content div{
-    width: 100%;
-  }
-
-  .services{
-    height: 100vh;
-    clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
-  }
-
-  .service-content{
-    display: block;
-    margin-top: -15vh;
-    padding-top: 1px;
-  }
-
-  .bucket{
-    width: 100%;
-    margin: 80px 3%;
-    height: 90px;
-  }
-}
