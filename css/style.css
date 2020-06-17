@@ -107,7 +107,7 @@ main{
 .service-content{
   display: flex;
   flex-wrap: wrap;
- 
+
 }
 
 .bucket{
@@ -159,22 +159,18 @@ footer{
   padding-bottom: 30px;
 }
 
-
-
-
-@media screen and ( max-width:320px)
-{
+@media screen and (max-width: 425px){
   .header{
-    height: 130vh;
-   
-    line-height: 30px;
+    height: 110vh;
+
+    line-height: 40px;
   }
 
   .btn{
-    
-    padding: 15px 5px;
-   
-    
+
+    padding: 15px 25px;
+
+
   }
 
   .header-content h1{
@@ -187,7 +183,7 @@ footer{
 
   .intro-content{
     display: block;
-    height: 160vh;
+    height: 140vh;
   }
 
   .intro-content div{
@@ -195,42 +191,39 @@ footer{
   }
 
   .services{
-    height: 180vh;
+    height: 150vh;
     clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
   }
 
   .service-content{
     display: block;
     margin-top: -15vh;
-    padding-top: 3px;
+    padding-top: 1px;
   }
 
   .bucket{
     width: 100%;
-    margin: 80px 4%;
-    height: 250px;
-    padding-top: 3px;
+    margin: 80px 3%;
+    height: 180px;
   }
 }
 
-
-@media screen and ( max-width:375px)
-{
+@media screen and (max-width: 375px){
   .header{
-    height: 130vh;
-   
-    line-height: 30px;
+    height: 110vh;
+
+    line-height: 40px;
   }
 
   .btn{
-    
+
     padding: 15px 15px;
-   
-    
+
+
   }
 
   .header-content h1{
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .header-content h2{
@@ -260,11 +253,58 @@ footer{
   .bucket{
     width: 100%;
     margin: 80px 4%;
-    height: 210px;
+    height: 200px;
     padding-top: 3px;
   }
-}
+} 
 
 
 
+@media screen and (max-width: 320px){
+  .header{
+    height: 125vh;
 
+    line-height: 40px;
+  }
+
+  .btn{
+
+    padding: 15px 5px;
+
+
+  }
+
+  .header-content h1{
+    font-size: 15px;
+  }
+
+  .header-content h2{
+    font-size: 20px;
+  }
+
+  .intro-content{
+    display: block;
+    height: 160vh;
+  }
+
+  .intro-content div{
+    width: 100%;
+  }
+
+  .services{
+    height: 180vh;
+    clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
+  }
+
+  .service-content{
+    display: block;
+    margin-top: -15vh;
+    padding-top: 1px;
+  }
+
+  .bucket{
+    width: 100%;
+    margin: 80px 3%;
+    height: 245px;
+  }
+} 
